@@ -179,13 +179,13 @@ label.chk_ans::before, label.chk_ans::before {
   top: 5px;
   right: 2px;
   left: -2px;
-  content: url('https://www.proprofs.com/quiz-school/images/oval_new.svg?v=1');
+  content: url('./img/ans_non.svg');
 }
 
 label.correct_ans::before {
-  content: url('https://www.proprofs.com/quiz-school/images/success.svg?v=2');
+  content: url('./img/ans_correct.svg');
 }
 
 label.wrong_ans::before {
-  content: url('https://www.proprofs.com/quiz-school/images/cancel.svg?v=2');
+  content: url('./img/ans_wrong.svg');
 }
