@@ -1,0 +1,191 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: white;
+  background-color: #3C3C3C;
+}
+
+.title {
+  font-size: 2.4em;
+  font-weight: 580;
+  margin-bottom: 20px;
+/*  text-transform: uppercase;  */
+}
+.sub_title{
+  margin-top: 0;
+}
+
+.sub_title a:link {
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+}
+.sub_title a:hover {
+  color: aqua;
+}
+
+.al_left{
+  text-align: left;
+}
+
+.al_right{
+  text-align: right;
+}
+
+.al_center{
+  text-align: center;
+}
+
+main {
+  color: #3C3C3C;
+  font-size: 1.8em;
+  padding-bottom: 20px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.bg_white {
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+.content {
+  padding-top: 30px;
+}
+
+.intro {
+  width: 70%;
+  text-align: right; 
+  font-size: 28px;
+  margin: 60px 5% 60px 25%;
+/*  margin-right: 15%;  */
+  line-height: 40px;
+}
+
+.frame {
+  box-shadow: 3px 5px 10px #999999;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.logo {
+  margin-top: 5px;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.status_bar {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.key_press {
+  font-size: 16px;
+  position: relative;
+  top: -15px;
+  right: 3px;
+  color: #337ab4;
+
+}
+.start_button {
+  margin-right: 15%;
+}
+
+button {
+  cursor: pointer;
+    font-size: 28px;
+    color: white;
+/*    border-radius: 25px;  */
+/*    font-weight: 600;  */
+    text-align: center;
+    background-color: #3c8ac9;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #337ab4;
+}
+
+.correct, .wrong {
+  margin: 20px auto;
+/*  margin-right: auto; */
+
+  font-size: 1.8em;
+  font-weight: 700; 
+
+
+}  
+
+.correct, .correct_ans{
+  color: #6ece53;
+}
+.wrong, .wrong_ans{
+  color: #f35f5d;
+}
+.wrong_ans{
+  text-decoration: line-through;
+}
+
+.qna_text {
+  
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 35px;
+}
+
+.question {
+  margin-top: 20px;
+  margin-left:  20px;
+  text-indent: -35px;
+}
+
+.answer {
+  margin-left: 25px;
+  text-indent: -20px;
+}
+
+.custom_radio:hover {
+  background-color: #EEEEEE;
+  cursor: pointer;
+}
+
+.ans_box{
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+/*  border: 1px solid #3C3C3C; */
+}
+
+fieldset {
+  border: none;
+}
+input[type='radio'] {
+  position:  relative;
+  bottom: 3px;
+  right: 2px;
+}
+
+label.chk_ans::before, label.chk_ans::before {
+  position: relative;
+  top: 5px;
+  right: 2px;
+  left: -2px;
+  content: url('https://www.proprofs.com/quiz-school/images/oval_new.svg?v=1');
+}
+
+label.correct_ans::before {
+  content: url('https://www.proprofs.com/quiz-school/images/success.svg?v=2');
+}
+
+label.wrong_ans::before {
+  content: url('https://www.proprofs.com/quiz-school/images/cancel.svg?v=2');
+}

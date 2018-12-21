@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+  	<meta name="description" content="Anthony's quiz app regarding photography">
+    
+    <title>Anthony's Photography Quiz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <link href="float-grid.css" rel="stylesheet" type="text/css" />
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header role='banner'>
+      <div class='row'>
+        <div class='col-12'>
+          <p class='title'>Beginning Photography: Quiz</p> 
+        </div>
+      </div>
+    </header>  
+    <nav role='navigation' class='row'>
+      <div class='col-6'>
+        <p class='sub_title'><span class='bold'>10 Questions</span> | By Anthony Kim</p>
+      </div>
+      <div class='col-6'>
+        <div class='sub_title al_right'>
+          <a href='mailto:anthony011@gmail.com' class='sub_title'>All images © <span class='bold'>2018</span></a>
+        </div>
+      </div>
+    </nav>
+
+    <main role='main'>
+      <div class='row bg_white js-content' data-no='0' data-right='0'> <!-- Set initial question number and right number -->
+
+        <!-- JS CONTENT START -->
+        <div class='col-6 content'>
+            <div class='intro'>
+            "This quiz will test your basic knowledge about photography terminology and composition concepts."
+            <div class='al_right content'>
+                <button class='js-start'>Start</button>
+            </div>
+            </div>
+        </div>
+        <div class='col-6 content al_right'>
+            <img class='frame' src='https://t1.daumcdn.net/cfile/tistory/99169A4D5C0DD54910'>
+        </div>
+        <!-- JS CONTENT END -->
+
+      </div>
+      <!-- 
+      <div class='row bg_white'>
+        <div class='col-12 logo'>
+          <footer role='contentinfo'>
+          <img class='logo' src='http://cfile25.uf.tistory.com/original/197D2E244B84D8564AB57C'>
+          </footer>
+        </div>
+      </div>
+      -->
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="datasource.js"></script>
+    <script src="index.js"></script>
+
+  </body>
+</html>
